@@ -1,10 +1,13 @@
-num= int(input("Enter any number :"))
-
-if num%3==0 and num%5==0:
-    print("FIZZBUZZ")
-elif num%3==0:
-    print("FIZZ")
-elif num%5==0:
-    print("BUZZ")
-else:
-    print (num)
+for num in range(100):
+    if num%3==0 and num%5==0:
+        print("FIZZBUZZ")
+        continue
+    elif num%3==0:
+        print("FIZZ")
+        continue
+    elif num%5==0:
+        print("BUZZ")
+        continue
+    else:
+        print(num)
+        
